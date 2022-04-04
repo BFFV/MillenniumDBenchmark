@@ -1,0 +1,3 @@
+1) Run "compile-all.sh" to compile necessary objects from gMark
+2) Choose/Create a config file inside the config folder (the schema for the graph data to be generated)
+3) Run "generate.sh NAME" where NAME is the filename of the chosen config file (this generates the data & workload)

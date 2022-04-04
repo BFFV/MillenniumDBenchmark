@@ -1,0 +1,6 @@
+?x1,?x0,?x3,?x2
+---------------------------------------
+---------------------------------------
+Timeout thrown after 60000 milliseconds.
+Found 0 results before timeout.
+Query Parser/Optimizer time: 394.698 ms.
