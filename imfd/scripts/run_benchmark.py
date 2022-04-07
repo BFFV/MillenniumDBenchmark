@@ -45,7 +45,7 @@ if __name__ == '__main__':
         RESUME_FILE = f'{out_dir}/gmark.csv'  # Statistics file
         for subdir, dirs, files in os.walk(in_dir):
             for f in files:
-                query_n = int(f[f.find('-') + 1:])
+                query_n = f[f.find('-') + 1:]
                 query_millennium(os.path.join(subdir, f), query_n,
                                  os.path.join(out_dir, f'q{query_n}.txt'))
     except IndexError:

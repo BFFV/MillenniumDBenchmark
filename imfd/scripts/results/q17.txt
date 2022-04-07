@@ -1,6 +1,0 @@
-?x0
----------------------------------------
----------------------------------------
-Found 0 results.
-Execution time: 501.207 ms.
-Query Parser/Optimizer time: 184.775 ms.

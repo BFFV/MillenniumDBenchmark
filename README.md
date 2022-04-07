@@ -7,7 +7,7 @@ The following steps should be executed from inside the ``imfd`` directory:
 
 1) Run ``compile-all.sh`` to **compile all necessary objects** from gMark's benchmarking tool.
 2) **Choose/Create/Modify** an ``XML`` file inside the `config` directory (the schema for the graph data to be generated).
-3) Run ``generate.sh NAME`` where ``NAME`` is the filename of the **chosen config file** from the previous step (this generates the data & workload).
+3) Run ``generate.sh NAME`` where ``NAME`` is the filename (without the extension/path) of the **chosen config file** from the previous step (this generates the data & workload).
 4) **Create a database from the generated data** with the MillenniumDB engine.
 
 The next few steps should be executed from inside the ``imfd/scripts`` directory:
